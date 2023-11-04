@@ -52,6 +52,23 @@ main{
   margin: 300px 0 50px;
 }
 
+main div{
+  overflow-x: auto;
+}
+
+div table{
+  width: 100%;
+  border: 1px solid rgb(71, 71, 71);
+  text-align: center;
+  border-collapse: collapse;
+  background: rgb(154, 204, 196);
+}
+
+table td{
+  padding: 10px;
+  border: 1px solid rgb(71, 71, 71);
+}
+
 @media (min-width: 992px) { 
   header{
     width: 300px;
@@ -71,5 +88,9 @@ main{
 
   main{
     margin: 0 0 0 300px;
+  }
+
+  main div table{
+    width: 50%;
   }
 }
