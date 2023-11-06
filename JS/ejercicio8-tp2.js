@@ -9,7 +9,7 @@ if(numero == "" || isNaN(numero)){
   if(numero >= 1 && numero <= 50){
     for (let i = 1; i <= numero; i++) {
       for (let j = 1; j <= i; j++) {
-        document.write(`<span>${i}</span>`);
+        document.write(`<span>${j}</span>`);
       }
       document.write(`<br>`);
     }
